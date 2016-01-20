@@ -2,6 +2,20 @@
 
 > A Yeoman generator that scaffolds a minimal www directory for a new Cordova app, with optional JavaScript flavors: jQuery, Framework7 or Vanilla.
 
+```sh
+
+     _-----_
+    |       |    .--------------------------.
+    |--(o)--|    |    'Allo 'Allo! Let's    |
+   `---------´   |  spruce up your Cordova  |
+    ( _´U`_ )    |   App's www directory.   |
+    /___A___\    '--------------------------'
+     |  ~  |
+   __'.___.'__
+ ´   `  |° ´ Y `
+
+```
+
 ## Installation
 
 ```sh
