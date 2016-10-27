@@ -1,6 +1,6 @@
 {
   "name": "generator-cordova-www",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scaffolds a minimal www directory for a new Cordova app with optional JavaScript flavors: jQuery, Framework7 or Vanilla.",
   "author": "Buster Collings <busterc@gmail.com> (https://about.me/buster)",
   "license": "ISC",
@@ -18,7 +18,7 @@
   ],
   "repository": "busterc/generator-cordova-www",
   "dependencies": {
-    "yeoman-generator": "^0.22.4",
+    "yeoman-generator": "^0.24.1",
     "yosay": "^1.1.0"
   },
   "files": [
