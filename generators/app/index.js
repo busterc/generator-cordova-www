@@ -24,14 +24,13 @@ module.exports = generators.Base.extend({
     }];
     var done = this.async();
 
-    this.prompt(prompts, function (answers) {
+    return this.prompt(prompts).then(function (answers) {
       this.answers = answers;
       done();
     }.bind(this));
   },
 
   writing: {
-
     js: function () {
       switch (this.answers.js) {
       case 'jQuery':
