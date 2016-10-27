@@ -19,7 +19,7 @@ module.exports = generators.Base.extend({
       type: 'list',
       name: 'js',
       message: 'JavaScript Flavor',
-      choices: ['jQuery', 'Framework7 - iOS', 'Framework7 - Android', 'Vanilla'],
+      choices: ['jQuery', 'Framework7 - iOS', 'Framework7 - Material', 'Vanilla'],
       default: 0
     }];
     var done = this.async();
@@ -52,10 +52,10 @@ module.exports = generators.Base.extend({
         );
         break;
 
-      case 'Framework7 - Android':
-        this.directory('framework7-android/www', 'www');
+      case 'Framework7 - Material':
+        this.directory('framework7-material/www', 'www');
         this.fs.copyTpl(
-          this.templatePath('framework7-android/index.html'),
+          this.templatePath('framework7-material/index.html'),
           this.destinationPath('www/index.html'),
           this.answers
         );
